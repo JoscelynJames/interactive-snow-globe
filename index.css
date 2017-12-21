@@ -5,6 +5,12 @@ html {
 	font-family: 'Sacramento', cursive;
 }
 
+#header {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
 #body {
 	display: flex;
 	flex-flow: column;
@@ -19,7 +25,15 @@ canvas {
 }
 
 button {
-	
+	height: 50px;
+	width: 150px;
+	background-color: #B21F10;
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+}
+
+button:hover {
+	background-color: green;
 }
 
 #snowglobe {
