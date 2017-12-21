@@ -1,5 +1,35 @@
-svg {
-	height: 80vh;
-	padding-left: 20%;
-	padding-top: 5% 
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Sacramento');
+
+html {
+	/* font-family: 'Dancing Script', cursive; */
+	font-family: 'Sacramento', cursive;
 }
+
+#body {
+	display: flex;
+	flex-flow: column;
+	align-items: center
+}
+
+canvas {
+	position: absolute;
+	background-color: transparent;
+	border-radius:  100%;
+	z-index: 1
+}
+
+button {
+	
+}
+
+#snowglobe {
+	height: 80vh;
+	position: absolute;
+	/* padding-top: 18% */
+}
+
+#heading {
+	font-size: 100px;
+	text-align: center;
+}
+
